@@ -126,7 +126,7 @@
             this.lblHappyBite.ForeColor = System.Drawing.Color.OliveDrab;
             this.lblHappyBite.Location = new System.Drawing.Point(12, 10);
             this.lblHappyBite.Name = "lblHappyBite";
-            this.lblHappyBite.Size = new System.Drawing.Size(128, 28);
+            this.lblHappyBite.Size = new System.Drawing.Size(166, 36);
             this.lblHappyBite.TabIndex = 29;
             this.lblHappyBite.Text = "Happy Bite";
             // 
@@ -171,7 +171,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(461, 41);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 22);
+            this.label2.Size = new System.Drawing.Size(47, 27);
             this.label2.TabIndex = 22;
             this.label2.Text = "Qty";
             // 
@@ -180,7 +180,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(243, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 22);
+            this.label1.Size = new System.Drawing.Size(59, 27);
             this.label1.TabIndex = 22;
             this.label1.Text = "Item";
             // 
@@ -197,6 +197,7 @@
             this.btnGenerateList.TabIndex = 21;
             this.btnGenerateList.Text = "Generate List";
             this.btnGenerateList.UseVisualStyleBackColor = false;
+            this.btnGenerateList.Click += new System.EventHandler(this.btnGenerateList_Click);
             // 
             // btnFavorite
             // 
@@ -216,7 +217,7 @@
             // 
             // ShoppingList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(704, 473);
             this.Controls.Add(this.btnClose);

@@ -70,5 +70,15 @@ namespace Happy_Bite
         {
             this.Close();
         }
+
+        private void textBoxusername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxpassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

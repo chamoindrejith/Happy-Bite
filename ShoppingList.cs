@@ -28,24 +28,41 @@ namespace Happy_Bite
 
         private void btnFavorite_Click(object sender, EventArgs e)
         {
+            if(fav == null || fav.IsDisposed)
+            {
+                fav = new Favourites();
+            }
             this.Hide();
             fav.Show();
         }
 
         private void btnMealPlan_Click(object sender, EventArgs e)
         {
+            if(plans == null || plans.IsDisposed)
+            {
+                plans = new MealPlans();
+            }
+
             this.Hide();
             plans.Show();
         }
 
         private void btnHome_Click(object sender, EventArgs e)
         {
+            if(home == null || home.IsDisposed)
+            {
+                home = new Home();
+            }
             this.Hide();
             home.Show();
         }
 
         private void btnRecipie_Click(object sender, EventArgs e)
         {
+            if (recipies == null || recipies.IsDisposed)
+            {
+                recipies = new Recipies();
+            }
             this.Hide();
             recipies.Show();
         }
@@ -53,6 +70,11 @@ namespace Happy_Bite
         private void btnShoppingList_Click(object sender, EventArgs e)
         {
             this.Show();
+        }
+
+        private void btnGenerateList_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

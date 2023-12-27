@@ -52,7 +52,7 @@
             this.linkLabel1.Location = new System.Drawing.Point(197, 375);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(260, 19);
+            this.linkLabel1.Size = new System.Drawing.Size(336, 23);
             this.linkLabel1.TabIndex = 13;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "If you don\'t have an account? Click here.";
@@ -79,8 +79,9 @@
             this.textBoxpassword.Location = new System.Drawing.Point(297, 236);
             this.textBoxpassword.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxpassword.Name = "textBoxpassword";
-            this.textBoxpassword.Size = new System.Drawing.Size(212, 27);
+            this.textBoxpassword.Size = new System.Drawing.Size(212, 32);
             this.textBoxpassword.TabIndex = 11;
+            this.textBoxpassword.TextChanged += new System.EventHandler(this.textBoxpassword_TextChanged);
             // 
             // textBoxusername
             // 
@@ -88,8 +89,9 @@
             this.textBoxusername.Location = new System.Drawing.Point(297, 197);
             this.textBoxusername.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxusername.Name = "textBoxusername";
-            this.textBoxusername.Size = new System.Drawing.Size(212, 27);
+            this.textBoxusername.Size = new System.Drawing.Size(212, 32);
             this.textBoxusername.TabIndex = 10;
+            this.textBoxusername.TextChanged += new System.EventHandler(this.textBoxusername_TextChanged);
             // 
             // label3
             // 
@@ -99,7 +101,7 @@
             this.label3.Location = new System.Drawing.Point(186, 242);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 21);
+            this.label3.Size = new System.Drawing.Size(108, 27);
             this.label3.TabIndex = 9;
             this.label3.Text = "Password:";
             // 
@@ -111,7 +113,7 @@
             this.label2.Location = new System.Drawing.Point(186, 194);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 21);
+            this.label2.Size = new System.Drawing.Size(123, 27);
             this.label2.TabIndex = 8;
             this.label2.Text = "User Name:";
             // 
@@ -124,7 +126,7 @@
             this.label1.Location = new System.Drawing.Point(294, 109);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 31);
+            this.label1.Size = new System.Drawing.Size(101, 40);
             this.label1.TabIndex = 7;
             this.label1.Text = "Login";
             // 
@@ -153,7 +155,7 @@
             // 
             // UserLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;

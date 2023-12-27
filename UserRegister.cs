@@ -106,5 +106,10 @@ namespace Happy_Bite
             this.Hide();
             login.Show();
         }
+
+        private void textBoxusername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
